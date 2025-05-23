@@ -1,1 +1,71 @@
-/* Start coding here */
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background: linear-gradient(to right, #f36ba1, #3498db);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  gap: 50px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 8px;
+  padding: 20px;
+  margin-top: 70px;
+  height: 400px;
+  width: 250px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: #000;
+}
+
+.card h2 {
+  margin-top: 0;
+  padding-top: 30px;
+  font-size: 24px;
+  letter-spacing: 1px;
+  color: white;
+}
+
+.card ul {
+  list-style: none;
+  padding: 0;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.card ul li {
+  margin: 10px 0;
+}
+
+.price {
+  font-size: 32px;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+button {
+  background: yellow;
+  border: none;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.card.highlight {
+  margin-top: 20px;
+  height: 500px;
+}
+
+hr {
+  border: 1px solid #aaa;
+}
